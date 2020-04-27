@@ -135,11 +135,11 @@
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oD8-9d-yaL">
                                 <rect key="frame" x="302" y="7" width="92" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Todo "/>
+                                <connections>
+                                    <segue destination="DgJ-zd-Ntp" kind="show" id="zlS-3m-Tkm"/>
+                                </connections>
                             </button>
-                            <connections>
-                                <action selector="todoButton:" destination="zNT-Al-wwH" id="Ffh-7o-hfO"/>
-                            </connections>
                         </barButtonItem>
                     </navigationItem>
                 </viewController>
@@ -169,4 +169,7 @@
         <image name="doc.richtext" catalog="system" width="56" height="64"/>
         <image name="person.2" catalog="system" width="64" height="40"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="zlS-3m-Tkm"/>
+    </inferredMetricsTieBreakers>
 </document>

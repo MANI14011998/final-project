@@ -296,13 +296,13 @@ class ChatViewController: JSQMessagesViewController {
         return cell
     }
     
-    @IBAction func todoButton(_ sender: Any) {
-        print("hello")
-        guard let createGoalVC = storyboard?.instantiateViewController(withIdentifier: "CategoryViewController") else { return }
-        present(createGoalVC, animated:true , completion: nil)
-        
-        
-    }
+//    @IBAction func todoButton(_ sender: Any) {
+//        print("hello")
+//        guard let createGoalVC = storyboard?.instantiateViewController(withIdentifier: "CategoryViewController") else { return }
+//        present(createGoalVC, animated:true , completion: nil)
+//        
+//        
+//    }
     
     override func didPressSend(_ button: UIButton!, withMessageText text: String!, senderId: String!, senderDisplayName: String!, date: Date!) {
         
