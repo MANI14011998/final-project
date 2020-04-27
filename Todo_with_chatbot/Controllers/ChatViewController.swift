@@ -296,6 +296,14 @@ class ChatViewController: JSQMessagesViewController {
         return cell
     }
     
+    @IBAction func todoButton(_ sender: Any) {
+        print("hello")
+        guard let createGoalVC = storyboard?.instantiateViewController(withIdentifier: "CategoryViewController") else { return }
+        present(createGoalVC, animated:true , completion: nil)
+        
+        
+    }
+    
     override func didPressSend(_ button: UIButton!, withMessageText text: String!, senderId: String!, senderDisplayName: String!, date: Date!) {
         
         addMessage(withId: senderId, name: senderDisplayName!, text: text!)
@@ -305,6 +313,7 @@ class ChatViewController: JSQMessagesViewController {
         performQuery(senderId: senderId, name: senderDisplayName, text: text!)
         
     }
+    
     
     override func didPressAccessoryButton(_ sender: UIButton)
     {

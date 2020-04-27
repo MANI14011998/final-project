@@ -127,7 +127,18 @@ class TodoListViewController: SwipeTableViewController {
             }
         }
     }
+//    func presentDetail(_ viewControllerToPresent: UIViewController) {
+//        let transition = CATransition()
+//        transition.duration = 0.3
+//        transition.type = CATransitionType.push
+//        transition.subtype = CATransitionSubtype.fromRight
+//        self.view.window?.layer.add(transition, forKey: kCATransition)
+//
+//        present(viewControllerToPresent, animated: false, completion: nil)
+//    }
+    
 }
+
 
 
 //Mark: - Searchbar delegate methods
