@@ -99,6 +99,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zxr-tg-kvK" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="todo" image="doc.richtext" catalog="system" id="RtV-wz-LPA"/>
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="Q9Y-cf-AC4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="M0x-xO-0ZG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -135,9 +136,9 @@
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oD8-9d-yaL">
                                 <rect key="frame" x="302" y="7" width="92" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Todo "/>
+                                <state key="normal" title="Todo"/>
                                 <connections>
-                                    <segue destination="DgJ-zd-Ntp" kind="show" id="zlS-3m-Tkm"/>
+                                    <segue destination="zxr-tg-kvK" kind="show" id="wTZ-ke-0JZ"/>
                                 </connections>
                             </button>
                         </barButtonItem>
@@ -169,7 +170,4 @@
         <image name="doc.richtext" catalog="system" width="56" height="64"/>
         <image name="person.2" catalog="system" width="64" height="40"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="zlS-3m-Tkm"/>
-    </inferredMetricsTieBreakers>
 </document>
